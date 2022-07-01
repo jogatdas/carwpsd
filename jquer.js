@@ -1,0 +1,17 @@
+$('.crox').hide();
+$('.mobilmanu').hide();
+$('.bar').click(function(){
+    $('.mobilmanu').slideDown();
+    $('.bar').hide();
+    $('.crox').show();
+})
+$('.crox').click(function(){
+    $('.mobilmanu').slideUp();
+    $('.bar').show();
+    $('.crox').hide();
+})
+$('.click').click(function(){
+    $('.mobilmanu').slideUp();
+    $('.crox').hide();
+    $('.bar').show
+})
